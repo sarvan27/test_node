@@ -1,0 +1,8 @@
+version: "3.2"
+
+services:
+  node_test:
+    container_name: node_test
+    build: .
+    ports:
+      - "8080:8080"
